@@ -22,6 +22,7 @@ const UserForm = (props) => {
     });
   };
 
+  
   const validate = () => {
     if (userInput.name.trim().length === 0) {
       props.onValidationError("Please enter at least something... jesus");
