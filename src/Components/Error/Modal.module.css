@@ -1,0 +1,46 @@
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-body{
+    width: 20rem;
+    height: 7rem;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-body p {
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.modal-footer{
+    width: 20rem;
+    height: 3rem;
+    background-color: white;
+    border-radius:  0 0 12px 12px;
+}
+
+.modal-footer button {
+    width: 100%;
+    background-color: white;
+    color: blueviolet;
+    height: 100%;
+    border: none;
+    border-radius:  0 0 12px 12px;
+    cursor: pointer;
+}
